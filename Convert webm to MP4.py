@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 18 17:48:34 2020
-
-@author: jiaxi
-"""
-# convert from webm to mp4
-# http://www.gerongcun.xyz/blog/2020/7f326749/
 
 
 import subprocess
@@ -27,6 +19,6 @@ class FFMConvertor:
         except:print('Some Exception')
 
 ffm = FFMConvertor()
-ffm.convert_webm_mp4_subprocess(r'C:\Users\jiaxi\test.webm', r'C:\Users\jiaxi\test1.mp4')
+ffm.convert_webm_mp4_subprocess(r'*.webm', r'*.mp4')
 
-ffm.convert_webm_mp4_module(r'D:\videos\Research Community\2020 1204\Original\Not MP4\26Efficient Exact Verification of Binarized Neural Networks.webm', r'D:\videos\Research Community\2020 1204\Original\Not MP4\test.mp4')
+# ffm.convert_webm_mp4_module(r*.webm', r'*.mp4')
